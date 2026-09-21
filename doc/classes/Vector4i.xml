@@ -193,6 +193,30 @@
 		<constant name="MAX" value="Vector4i(2147483647, 2147483647, 2147483647, 2147483647)">
 			Max vector, a vector with all components equal to [code]INT32_MAX[/code]. Can be used as an integer equivalent of [constant Vector4.INF].
 		</constant>
+        <constant name="RIGHT" value="Vector4i(1, 0, 0, 0)">
+			Right unit vector.
+		</constant>
+		<constant name="LEFT" value="Vector4i(-1, 0, 0, 0)">
+			Left unit vector.
+		</constant>
+		<constant name="UP" value="Vector4i(0, 1, 0, 0)">
+			Up unit vector.
+		</constant>
+		<constant name="DOWN" value="Vector4i(0, -1, 0, 0)">
+			Down unit vector.
+		</constant>
+		<constant name="FORWARD" value="Vector4i(0, 0, -1, 0)">
+			Forward unit vector. Godot uses negative Z as forward because of OpenGL.
+		</constant>
+		<constant name="BACK" value="Vector4i(0, 0, 1, 0)">
+			Backward unit vector.
+		</constant>
+		<constant name="ANA" value="Vector4i(0, 0, 0, 1)">
+			Ana unit vector.
+		</constant>
+		<constant name="KATA" value="Vector4i(0, 0, 0, -1)">
+			Kata unit vector.
+		</constant>
 	</constants>
 	<operators>
 		<operator name="operator !=">

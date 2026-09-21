@@ -3080,6 +3080,15 @@ static void _register_variant_builtin_constants() {
 	_VariantCall::add_variant_constant(Variant::VECTOR4, "ZERO", Vector4(0, 0, 0, 0));
 	_VariantCall::add_variant_constant(Variant::VECTOR4, "ONE", Vector4(1, 1, 1, 1));
 	_VariantCall::add_variant_constant(Variant::VECTOR4, "INF", Vector4(Math::INF, Math::INF, Math::INF, Math::INF));
+	
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "LEFT", Vector4(-1, 0, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "RIGHT", Vector4(1, 0, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "UP", Vector4(0, 1, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "DOWN", Vector4(0, -1, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "FORWARD", Vector4(0, 0, -1, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "BACK", Vector4(0, 0, 1, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "ANA", Vector4(0, 0, 0, 1));
+	_VariantCall::add_variant_constant(Variant::VECTOR4, "KATA", Vector4(0, 0, 0, -1));
 
 	_VariantCall::add_enum_constant(Variant::VECTOR3I, "Axis", "AXIS_X", Vector3i::AXIS_X);
 	_VariantCall::add_enum_constant(Variant::VECTOR3I, "Axis", "AXIS_Y", Vector3i::AXIS_Y);
@@ -3094,6 +3103,15 @@ static void _register_variant_builtin_constants() {
 	_VariantCall::add_variant_constant(Variant::VECTOR4I, "ONE", Vector4i(1, 1, 1, 1));
 	_VariantCall::add_variant_constant(Variant::VECTOR4I, "MIN", Vector4i(INT32_MIN, INT32_MIN, INT32_MIN, INT32_MIN));
 	_VariantCall::add_variant_constant(Variant::VECTOR4I, "MAX", Vector4i(INT32_MAX, INT32_MAX, INT32_MAX, INT32_MAX));
+	
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "LEFT", Vector4i(-1, 0, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "RIGHT", Vector4i(1, 0, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "UP", Vector4i(0, 1, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "DOWN", Vector4i(0, -1, 0, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "FORWARD", Vector4i(0, 0, -1, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "BACK", Vector4i(0, 0, 1, 0));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "ANA", Vector4i(0, 0, 0, 1));
+	_VariantCall::add_variant_constant(Variant::VECTOR4I, "KATA", Vector4i(0, 0, 0, -1));
 
 	_VariantCall::add_variant_constant(Variant::VECTOR3I, "ZERO", Vector3i(0, 0, 0));
 	_VariantCall::add_variant_constant(Variant::VECTOR3I, "ONE", Vector3i(1, 1, 1));
