@@ -1,0 +1,3 @@
+[submodule "modules/4d"]
+	path = modules/4d
+	url = https://github.com/godot-dimensions/godot-4d.git
